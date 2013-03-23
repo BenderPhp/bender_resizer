@@ -20,7 +20,7 @@ Synospys
 ================================ -->
 <img src="http://www.example.com/utilities/bender_resizer/?src=uploads/bender.jpg?width=150&height=150">
 
-<!-- Resize picture with hekoer
+<!-- Resize picture with helper
 ================================ -->
 <img src="<?= resizer('uploads/bender.jpg', 150, 150) ?>" />
 
