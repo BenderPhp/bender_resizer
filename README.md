@@ -29,8 +29,9 @@ Synospys
 Installation 
 ===
 
-Pour le système de resize, il vous suffit de créer le dossier `utilities` dans le dossier `application/controllers` et de créer un dossier `bender_resizer` dans le dossier `application/cache` (bender met en cache automatiquement vos images).
+Pour le système de resize, il vous suffit de créer le dossier `utilities` dans le dossier `application/controllers` et d'y déposer `bender_resizer.php` 
+Il vous faudra aussi créer un dossier `bender_resizer` dans le dossier `application/cache` (bender met en cache automatiquement vos images).
 
-Pour utiliser le helper, il vous suffit d'ajouter `bender_resizer_helper` dans votre dossier `application/helpers` et de le charger dans CodeIgniter.
+Pour utiliser le helper, il vous suffit d'ajouter `bender_resizer_helper.php` dans votre dossier `application/helpers` et de le charger dans CodeIgniter.
 
 Bon code !
